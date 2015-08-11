@@ -5,7 +5,7 @@ INSTALL	= install
 LIBS    =
 prefix	= /usr/local
 BINDIR	= $(prefix)/bin
-MANDIR	= $(prefix)/man/man1
+MANDIR	= $(prefix)/share/man/man1
 VERSION = $(shell cat version)
 
 SOURCES = flock.c flock.1 flock.spec Makefile version
